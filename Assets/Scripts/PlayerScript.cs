@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;  ////ここを追加したよ////
+using UnityEngine.UI;
 
 public class PlayerScript : MonoBehaviour {
 
-	public int score = 0; ////ここを追加したよ////
+	public int score = 0;
+	bool flag = false; ////ここを追加したよ////
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,9 @@ public class PlayerScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		this.GetComponent<Text>().text = "点数" + score.ToString() + "点";////ここを追加したよ////
+		if (flag == true) { ////ここを追加したよ////
+			this.GetComponent<Text> ().text = "点数" + score.ToString () + "点";////ここを追加したよ////
+		} ////ここを追加したよ////
 
 	}
 }
