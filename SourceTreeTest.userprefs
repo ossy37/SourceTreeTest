@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\taikenkai\Scripts\Target.cs">
     <Files>
       <File FileName="Assets\Scripts\PlayerScript.cs" Line="21" Column="21" />
+      <File FileName="Assets\taikenkai\Scripts\Gun.cs" Line="18" Column="3" />
+      <File FileName="Assets\taikenkai\Scripts\Target.cs" Line="18" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
